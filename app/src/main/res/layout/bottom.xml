@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/footer"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@drawable/manufacturer"/>
+
+        <TextView
+            android:id="@+id/url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingRight="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="6dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/flashBackground"
+            android:text="@string/designed_and_developed_by_dtinnovations"
+            android:textSize="4pt"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

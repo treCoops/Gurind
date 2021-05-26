@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txtHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TableLayout
+                        android:id="@+id/tableLayoutForHead"
+                        android:stretchColumns="0,1"
+                        android:layout_width="match_parent"
+                        android:layout_below="@+id/txtHeading"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+
+                    <TableLayout
+                        android:layout_below="@+id/tableLayoutForHead"
+                        android:id="@+id/tableLayout_DS"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_height="match_parent"
+                                    android:layout_width="wrap_content"
+                                    android:textAlignment="center"
+                                    android:text="Document Type"
+                                    android:textColor="#ffffff"
+                                    android:paddingStart="15dp"
+                                    android:paddingEnd="15dp"
+                                    android:paddingTop="3dp"
+                                    android:paddingBottom="3dp"
+                                    android:textSize="15sp"
+                                    android:background="@drawable/table_heading"/>
+
+                                <TextView
+                                    android:layout_height="match_parent"
+                                    android:paddingStart="15dp"
+                                    android:layout_width="wrap_content"
+                                    android:textAlignment="center"
+                                    android:textColor="#ffffff"
+                                    android:paddingEnd="15dp"
+                                    android:text="Document No"
+                                    android:paddingTop="3dp"
+                                    android:paddingBottom="3dp"
+                                    android:textSize="15sp"
+
+                                    android:background="@drawable/table_heading"/>
+
+                                <TextView
+                                    android:layout_height="match_parent"
+                                    android:layout_width="wrap_content"
+                                    android:textAlignment="center"
+                                    android:text="Document Date"
+                                    android:paddingTop="3dp"
+                                    android:paddingBottom="3dp"
+                                    android:textSize="15sp"
+                                    android:textColor="#ffffff"
+                                    android:paddingStart="15dp"
+                                    android:paddingEnd="15dp"
+                                    android:background="@drawable/table_heading"/>
+
+                                <TextView
+                                    android:layout_height="match_parent"
+                                    android:layout_width="wrap_content"
+                                    android:textAlignment="center"
+                                    android:text="Currency"
+                                    android:paddingTop="3dp"
+                                    android:paddingBottom="3dp"
+                                    android:textSize="15sp"
+                                    android:textColor="#ffffff"
+                                    android:paddingStart="15dp"
+                                    android:paddingEnd="15dp"
+                                    android:background="@drawable/table_heading"/>
+
+                                <TextView
+                                    android:layout_height="match_parent"
+                                    android:layout_width="wrap_content"
+                                    android:textAlignment="center"
+                                    android:text="Document Value"
+                                    android:paddingTop="3dp"
+                                    android:paddingBottom="3dp"
+                                    android:textSize="15sp"
+                                    android:textColor="#ffffff"
+                                    android:paddingStart="15dp"
+                                    android:paddingEnd="15dp"
+                                    android:background="@drawable/table_heading"/>
+
+                                <TextView
+                                    android:layout_height="match_parent"
+                                    android:layout_width="wrap_content"
+                                    android:textAlignment="center"
+                                    android:text="Document Balance"
+                                    android:paddingTop="3dp"
+                                    android:paddingBottom="3dp"
+                                    android:textSize="15sp"
+                                    android:textColor="#ffffff"
+                                    android:paddingStart="15dp"
+                                    android:paddingEnd="15dp"
+                                    android:background="@drawable/table_heading"/>
+
+                            </TableRow>
+                        </TableLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </androidx.core.widget.NestedScrollView>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

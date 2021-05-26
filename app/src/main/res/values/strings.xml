@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Gurind</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_forgot">Forgot Password ?</string>
+    <string name="title_activity__home">Activity_Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Customer Name</string>
+    <string name="nav_header_subtitle">Customer ID</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="menu_home">Issued Quotations</string>
+    <string name="menu_gallery">Running Orders</string>
+    <string name="recently_completed">Recently Completed Orders</string>
+    <string name="menu_tools">Debtor Statement</string>
+    <string name="last_few_payments">Last Few Payments</string>
+    <string name="ready_not">Ready Not Collected</string>
+    <string name="recent_delivery">Recent Deliveries</string>
+    <string name="change_password">Change Password</string>
+    <string name="order_status">Order Status</string>
+
+    <string name="logout">Logout</string>
+
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_tab__chart">Tab_Chart</string>
+    <string name="tab_text_1">Monthly Sales Value</string>
+    <string name="tab_text_2">Monthly Square Meter</string>
+    <string name="tab_text_3">Monthly Thickness Wise Square Meter</string>
+    <string name="tab_text_4">Monthly Thickness Wise Value</string>
+    <string name="status_of_my_order">Status Of My Order</string>
+    <string name="inbox">Inbox</string>
+    <string name="select_order_no_or_project_reference">Select Order No Or Project Reference</string>
+    <string name="ready_status">Ready Status</string>
+    <string name="dispatch_status">Dispatch Status</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="account_created_email_address">Email Address Which is Created Account</string>
+    <string name="submit">Submit</string>
+    <string name="unsettle_invoices">Unsettle Invoices</string>
+    <string name="enter_your_current_password">Enter Your Current Password</string>
+    <string name="enter_your_new_password">Enter Your New Password</string>
+    <string name="designed_and_developed_by_dtinnovations">Designed and Developed by DTInnovations.</string>
+    <string name="certifications">Certifications</string>
+    <string name="calender">Calender</string>
+    <string name="company_profile">Company Profile</string>
+</resources>

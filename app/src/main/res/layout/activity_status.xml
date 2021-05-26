@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtPrjOrder"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="20sp"
+                        android:text="@string/select_order_no_or_project_reference"/>
+
+
+                    <TableLayout
+                        android:id="@+id/tableLayoutForHead1"
+                        android:layout_width="match_parent"
+                        android:layout_below="@+id/txtPrjOrder"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tableLayoutForHead1">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="5dp"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textStyle="bold"
+                                    android:text="@string/ready_status"
+                                    android:id="@+id/txtStatusHeading"
+                                    android:visibility="invisible"
+                                    android:textSize="18sp" />
+
+                                <TableLayout
+                                    android:id="@+id/tableLayout1"
+                                    android:layout_width="match_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_below="@+id/txtStatusHeading"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="5dp"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textStyle="bold"
+                                    android:text="@string/dispatch_status"
+                                    android:layout_below="@+id/tableLayout1"
+                                    android:id="@+id/txtStatusHeading1"
+                                    android:visibility="invisible"
+                                    android:textSize="18sp" />
+
+                                <TableLayout
+                                    android:id="@+id/tableLayout2"
+                                    android:layout_width="match_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@+id/txtStatusHeading1"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp" />
+
+                            </RelativeLayout>
+
+                    </HorizontalScrollView>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableLayout
+                        android:id="@+id/tableLayout_LFP"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_height="match_parent"
+                                android:layout_width="wrap_content"
+                                android:textAlignment="center"
+                                android:text="Receipt No"
+                                android:textColor="#ffffff"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="15dp"
+                                android:paddingTop="3dp"
+                                android:paddingBottom="3dp"
+                                android:textSize="15sp"
+                                android:background="@drawable/table_heading"/>
+
+                            <TextView
+                                android:layout_height="match_parent"
+                                android:paddingStart="15dp"
+                                android:layout_width="wrap_content"
+                                android:textAlignment="center"
+                                android:textColor="#ffffff"
+                                android:paddingEnd="15dp"
+                                android:text="Receipt Date"
+                                android:paddingTop="3dp"
+                                android:paddingBottom="3dp"
+                                android:textSize="15sp"
+                                android:background="@drawable/table_heading"/>
+
+                            <TextView
+                                android:layout_height="match_parent"
+                                android:layout_width="wrap_content"
+                                android:textAlignment="center"
+                                android:text="Total Receipt Value"
+                                android:paddingTop="3dp"
+                                android:paddingBottom="3dp"
+                                android:textSize="15sp"
+                                android:textColor="#ffffff"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="15dp"
+                                android:background="@drawable/table_heading"/>
+
+                            <TextView
+                                android:layout_height="match_parent"
+                                android:layout_width="wrap_content"
+                                android:textAlignment="center"
+                                android:text="Payment Type"
+                                android:paddingTop="3dp"
+                                android:paddingBottom="3dp"
+                                android:textSize="15sp"
+                                android:textColor="#ffffff"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="15dp"
+                                android:background="@drawable/table_heading"/>
+
+                            <TextView
+                                android:layout_height="match_parent"
+                                android:layout_width="wrap_content"
+                                android:textAlignment="center"
+                                android:text="Narration"
+                                android:paddingTop="3dp"
+                                android:paddingBottom="3dp"
+                                android:textSize="15sp"
+                                android:textColor="#ffffff"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="15dp"
+                                android:background="@drawable/table_heading"/>
+
+                        </TableRow>
+
+                    </TableLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.core.widget.NestedScrollView>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

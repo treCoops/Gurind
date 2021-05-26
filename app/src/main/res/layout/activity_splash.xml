@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splashBackground">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgBrownsLogo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/brownslogo"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/imgLogo"
+        android:scaleType="fitCenter"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splashlogo"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"/>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/manufacturerLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:maxWidth="50dp"
+        android:maxHeight="50dp"
+        android:src="@drawable/manufacturer" />
+</RelativeLayout>

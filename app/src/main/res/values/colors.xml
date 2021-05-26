@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#2832F8</color>
+    <color name="splashBackground">#FFFFFF</color>
+    <color name="footer">#FAF9F9</color>
+    <color name="changePasswordBackground">#F3F0F0</color>
+    <color name="signInBackground">#1117B4</color>
+    <color name="flashBackground">#222121</color>
+    <color name="flashIcon">#A30101</color>
+    <color name="flashCaution">#FDE100</color>
+    <color name="skyBlue">#87CEEB</color>
+    <color name="eventColor">#85461E</color>
+    <color name="tableBody1">#D9E2F3</color>
+    <color name="tableBody2">#FFFFFF</color>
+    <color name="tableBody3">#F14F4F</color>
+    <color name="success">#1AB20F</color>
+</resources>
